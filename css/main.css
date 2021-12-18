@@ -12,20 +12,20 @@
   --neutral-120: hsl(220, 16%, 96%);
   --neutral-130: hsl(233, 8%, 62%);
 
-  --fs-100: 18px; /* normal menu  */
-  --fs-200: 40px; /* normal header Next gen 1.20 / -0.78 */
-  --fs-300: 16px; /* light header txt 1.55 / -0.60  */
-  --fs-400: 16px; /* cta bold 1.5 / -0.80 */
-  --fs-500: 32px; /* normal 2nd 1.20 / -0.78 */
-  --fs-600: 16px; /* light 2nd txt 1.55/ -0.60 */
-  --fs-700: 18px; /* normal h3  txt / -0.52 */
-  --fs-800: 18px; /* light   txt  1.5/ -0.60 */
-  --fs-900: 32px; /* normal h4  1.5/ -0.52 */
-  --fs-60: 14px; /* footer bold cta */
-  --fs-50: 14px; /* footer cta /0.25 */
-  --fs-70: 10px; /* card light h5 / -0.14 */
-  --fs-80: 16px; /* card normal p 1.2 / -0.30 */
-  --fs-90: 14px; /* card normal 1.3/ -0.70*/
+  --fs-100: 18px;
+  --fs-200: 40px;
+  --fs-300: 16px;
+  --fs-400: 16px;
+  --fs-500: 32px;
+  --fs-600: 16px;
+  --fs-700: 18px;
+  --fs-800: 16px;
+  --fs-900: 32px;
+  --fs-50: 14px;
+  --fs-60: 14px;
+  --fs-70: 10px;
+  --fs-80: 16px;
+  --fs-90: 14px;
 
   --ff-sans: "Public Sans", sans-serif;
 
@@ -33,7 +33,7 @@
   --t-100: -0.8px;
   --t-200: -0.78px;
   --t-300: -0.6px;
-  --t-400: -0.52px;
+  --t-400: 0.52px;
   --t-500: -0.3px;
   --t-600: -0.25px;
   --t-700: -0.14px;
@@ -46,20 +46,20 @@
 
 @media (min-width: 45rem) {
   :root {
-    --fs-100: 16px; /* normal menu /-1.34  */
-    --fs-200: 56px; /* normal header Next gen 1.10 / -1.10 */
-    --fs-300: 18px; /* light header txt 1.55 / -.26  */
-    --fs-400: 14px; /* cta bold  */
-    --fs-500: 40px; /* normal 2nd 1.50 / -0.80 */
-    --fs-600: 18px; /* light 2nd txt 1.50/ -0.29 */
-    --fs-700: 24px; /* normal h3  txt / -0.58 */
-    --fs-800: 18px; /* light   txt  1.5/ -1.10 */
-    --fs-900: 40px; /* normal h4  1.5/ -0.80 */
-    --fs-60: 14px; /* footer bold cta */
-    --fs-50: 14px; /* footer cta /0.25 */
-    --fs-70: 10px; /* card light h5 / -0.14 */
-    --fs-80: 16px; /* card normal p 1.2 / -0.30 */
-    --fs-90: 14px; /* card normal 1.3/ -0.70*/
+    --fs-100: 16px;
+    --fs-200: 56px;
+    --fs-300: 18px;
+    --fs-400: 14px;
+    --fs-500: 40px;
+    --fs-600: 18px;
+    --fs-700: 24px;
+    --fs-800: 18px;
+    --fs-900: 40px;
+    --fs-50: 14px;
+    --fs-60: 14px;
+    --fs-70: 10px;
+    --fs-80: 16px;
+    --fs-90: 14px;
 
     /* letter spacing     */
     --t-100: -0.8px;
@@ -75,4 +75,11 @@
     --l-200: 1.3;
     --l-300: 1.5;
   }
+}
+body {
+  display: grid;
+  grid-template-row: min-content 1fr;
+  min-height: 100vh;
+  font-size: 1.125rem;
+  width: 100%;
 }
