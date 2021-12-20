@@ -41,7 +41,7 @@
         "
       >
         <!-- Logo -->
-        <a href="#!">
+        <a href="#!" aria-label="easybank">
           <img
             src="./images/logo.svg"
             alt="easybank"
@@ -63,9 +63,10 @@
               aspect-square
               lg:hidden
             "
+            aria-expanded="false"
             aria-controls="primary-navigation "
           >
-            <span class="sr-only" aria-expanded="false">Menu</span>
+            <span class="sr-only" >Menu</span>
           </button>
 
           <!-- navigation menu -->
@@ -148,7 +149,7 @@
             md:top_left
             bg-[top_-5rem]
             aspect-square
-            md:bg-intro-desktop md:overflow-x-clip
+            md:bg-intro-desktop md:overflow-x-clip aria-hidden="true"
           "
         >
           <img
@@ -297,16 +298,16 @@
           Latest Articles
         </h4>
         <div class="md:grid md:grid-cols-2 md:gap-4 xl:grid-cols-4">
-          <figure class="md:bg-neutral-100 md:shadow-md">
+          <div class="md:bg-neutral-100 md:shadow-md">
             <img
               src="./images/image-currency.jpg"
               alt="money"
               class="aspect-[6/4] w-full xl:rounded-tl-lg xl:rounded-tr-lg"
             />
             <div class="px-8">
-              <figcaption class="text-fs-70 font-bold tracking-t-700 pt-6">
+              <p class="text-fs-70 font-bold tracking-t-700 pt-6">
                 By Claire Robinson
-              </figcaption>
+              </p>
               <p
                 class="
                   text-fs-80
@@ -333,18 +334,18 @@
                 why should you be forced to only receive money in a single …
               </p>
             </div>
-          </figure>
+          </div>
 
-          <figure class="md:bg-neutral-100 md:shadow-md">
+          <div class="md:bg-neutral-100 md:shadow-md">
             <img
               src="./images/image-restaurant.jpg"
               alt="restaurant"
               class="aspect-[6/4] xl:rounded-tl-lg xl:rounded-tr-lg"
             />
             <div class="px-8">
-              <figcaption class="text-fs-70 font-bold tracking-t-700 pt-6">
+              <p class="text-fs-70 font-bold tracking-t-700 pt-6">
                 By Wilson Hutton
-              </figcaption>
+              </p>
               <p
                 class="
                   text-fs-80
@@ -371,18 +372,18 @@
                 spending and set realistic limits each month. That means you …
               </p>
             </div>
-          </figure>
+          </div>
 
-          <figure class="md:bg-neutral-100 md:shadow-md">
+          <div class="md:bg-neutral-100 md:shadow-md">
             <img
               src="./images/image-plane.jpg"
               alt="plane"
               class="aspect-[6/4] xl:rounded-tl-lg xl:rounded-tr-lg"
             />
             <div class="px-8">
-              <figcaption class="text-fs-70 font-bold tracking-t-700 pt-6">
+              <p class="text-fs-70 font-bold tracking-t-700 pt-6">
                 By Wilson Hutton
-              </figcaption>
+              </p>
               <p
                 class="
                   text-fs-80
@@ -409,18 +410,18 @@
                 any fees on purchases while you’re abroad. We’ll even show you …
               </p>
             </div>
-          </figure>
+          </div>
 
-          <figure class="md:bg-neutral-100 md:shadow-md">
+          <div class="md:bg-neutral-100 md:shadow-md">
             <img
               src="./images/image-confetti.jpg"
               alt="confetti"
               class="aspect-[6/4] xl:rounded-tl-lg xl:rounded-tr-lg"
             />
             <div class="px-8">
-              <figcaption class="text-fs-70 font-bold tracking-t-700 pt-6">
+              <p class="text-fs-70 font-bold tracking-t-700 pt-6">
                 By Claire Robinson
-              </figcaption>
+              </p>
               <p
                 class="
                   text-fs-80
@@ -448,7 +449,7 @@
                 the site ...
               </p>
             </div>
-          </figure>
+          </div>
         </div>
       </section>
     </main>

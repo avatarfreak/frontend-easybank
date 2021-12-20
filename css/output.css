@@ -1128,10 +1128,6 @@ body {
     display: none;
   }
 
-  .lg\:h-auto {
-    height: auto;
-  }
-
   .lg\:min-h-0 {
     min-height: 0px;
   }
