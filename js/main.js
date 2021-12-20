@@ -17,3 +17,14 @@ menuBtn.addEventListener("click", () => {
     menuExpanded.setAttribute("aria-expanded", "false");
   }
 });
+
+// Display menu if media is equal or larget than 850px
+window.addEventListener("resize", () => {
+  if (window.innerWidth >= 850) {
+    nav.style.transform = "translateX(0)";
+  } else {
+    nav.style.transform = "translateX(-100%)";
+    menuBtn.classList.remove("bg-menu-close");
+    menuExpanded.setAttribute("aria-expanded", "false");
+  }
+});
