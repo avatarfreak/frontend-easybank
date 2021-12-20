@@ -12,7 +12,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABO1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////l9Pff8fS54ein2eOn2eL9/v684unr9vj7/f7c8PSl2eKHzNil2OLv+Prz+vue1eB3xdOq2uPm9Pf29/vy8/n3/Py13+eEyteZ097P6u/2+/zByeKOm8r8/f7u+Pq+4+qOz9uU0dzo9fjb4O5meLbh5fH0+vvV7fHx+fv8/P2Gk8Wbps+44eim2eLW2+xkdrXO1Oit3OWttthperja3u7u+Pn6+/2hrNJneLfFy+P7+/23v92IlcbN0ufx8/nj5/Kbp9BsfbltfrqAj8ORnsvg5PD+/v/v8ffQ1em0vduqtNfn6vS/61TcAAAAHHRSTlMAAAQqbK3Z8v0DN5ff+xqJ6jbC/kHBAjjp3qz8qSKHsgAAAAFiS0dEAf8CLd4AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfiChMPAx5FOtlkAAABSUlEQVQ4y4WTZ2OCMBCGc4IMEXAPjB10771t7dLuXbv3/v+/oNigIYjN+4HcJU9CcgMhVxASxLAkK4oshUUhBIgVqBEtqmNXelSLqF4EwDBjmFHMNADoejyRxD4lE/EGAZCScICkFCGc/YHrDkHOACON2yhtOABkTNxWZgYQZHPeqWKH18tlAakas6ezi3E1FQl5Fuhm3LyARD0AsIs9vSSmIrJwC9DXPzA4NEx8C0ktwMjo2PiE3YgFkokxOdUEpmdm5+YXXEBGCjEWl5bpHVZKq2tlMq+gAjHWNza9r9jarpD5QuMX1Z3dv3Fvn72T3LzkweFRfSgd+xJGn3lyeuZ8K+csYNFAXVzWrqr+bDmBoqG+vqnd3t3bDOCE2push8en55fXNzZZTLrfPz6/vn+oX083t2C4JccvWm7Z8xuH33r85v2v/X8Bp/FiyVLnL/0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMTAtMTlUMTU6MDM6MzArMDI6MDCzEaEaAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTEwLTE5VDE1OjAzOjMwKzAyOjAwwkwZpgAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg=="
+      href="./images/favicon-32x32.png"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,10 +20,8 @@
       href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&amp;display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Frontend Mentor | Easybank landing page</title>
-    <script type="module" crossorigin src="./assets/index.ce711340.js"></script>
-    <link rel="stylesheet" href="./assets/index.3167ce8f.css" />
   </head>
 
   <body>
@@ -45,7 +43,7 @@
         <!-- Logo -->
         <a href="#!">
           <img
-            src="./assets/logo.10304527.svg"
+            src="./images/logo.svg"
             alt="easybank"
             aria-hidden="true"
             class="inline-block"
@@ -77,11 +75,13 @@
               ease-in-out
               -translate-x-full
               z-20
-              fixed
+              absolute
               inset-0
+              min-h-screen
               text-center
-              mt-[3.75rem]
+              mt-[4.2rem]
               bg-black/50
+              lg:h-auto
               lg:relative
               lg:translate-x-0
               lg:mt-0
@@ -152,7 +152,7 @@
           "
         >
           <img
-            src="./assets/image-mockups.78150325.png"
+            src="./images/image-mockups.png"
             alt="mobile"
             aria-hidden="true"
             class="
@@ -168,7 +168,6 @@
         <section
           class="
             mx-8
-            mb-20
             text-center
             md:text-left
             md:col-start-1
@@ -241,7 +240,7 @@
         <ul class="md:grid md:grid-cols-2 xl:grid-cols-4 xl:gap-x-4">
           <li>
             <img
-              src="./assets/icon-online.8eaaf9fc.svg"
+              src="./images/icon-online.svg"
               alt="online banking"
               class="inline-block py-6"
             />
@@ -253,7 +252,7 @@
           </li>
           <li>
             <img
-              src="./assets/icon-budgeting.fe58f843.svg"
+              src="./images/icon-budgeting.svg"
               alt="budgeting"
               class="inline-block py-6"
             />
@@ -265,7 +264,7 @@
           </li>
           <li>
             <img
-              src="./assets/icon-onboarding.1862bf78.svg"
+              src="./images/icon-onboarding.svg"
               alt="Onboarding"
               class="inline-block py-6"
             />
@@ -277,7 +276,7 @@
           </li>
           <li>
             <img
-              src="./assets/icon-api.949f2a8f.svg"
+              src="./images/icon-api.svg"
               alt="investment"
               class="inline-block py-6"
             />
@@ -300,7 +299,7 @@
         <div class="md:grid md:grid-cols-2 md:gap-4 xl:grid-cols-4">
           <figure class="md:bg-neutral-100 md:shadow-md">
             <img
-              src="./assets/image-currency.8844ad9b.jpg"
+              src="./images/image-currency.jpg"
               alt="money"
               class="aspect-[6/4] w-full xl:rounded-tl-lg xl:rounded-tr-lg"
             />
@@ -338,7 +337,7 @@
 
           <figure class="md:bg-neutral-100 md:shadow-md">
             <img
-              src="./assets/image-restaurant.2f328987.jpg"
+              src="./images/image-restaurant.jpg"
               alt="restaurant"
               class="aspect-[6/4] xl:rounded-tl-lg xl:rounded-tr-lg"
             />
@@ -376,7 +375,7 @@
 
           <figure class="md:bg-neutral-100 md:shadow-md">
             <img
-              src="./assets/image-plane.0dac85d5.jpg"
+              src="./images/image-plane.jpg"
               alt="plane"
               class="aspect-[6/4] xl:rounded-tl-lg xl:rounded-tr-lg"
             />
@@ -414,7 +413,7 @@
 
           <figure class="md:bg-neutral-100 md:shadow-md">
             <img
-              src="./assets/image-confetti.beedb0e2.jpg"
+              src="./images/image-confetti.jpg"
               alt="confetti"
               class="aspect-[6/4] xl:rounded-tl-lg xl:rounded-tr-lg"
             />
@@ -660,5 +659,6 @@
         >.
       </div>
     </footer>
+    <script src="./js/main.js" type="module"></script>
   </body>
 </html>
