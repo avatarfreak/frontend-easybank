@@ -46,10 +46,10 @@ module.exports = {
         "l-300": "var(--l-300)",
       },
       backgroundImage: {
-        "menu-open": "url('./images/icon-hamburger.svg')",
-        "menu-close": "url('./images/icon-close.svg')",
-        "intro-mobile": "url('./images/bg-intro-mobile.svg')",
-        "intro-desktop": "url('./images/bg-intro-desktop.svg')",
+        "menu-open": "url('../images/icon-hamburger.svg')",
+        "menu-close": "url('../images/icon-close.svg')",
+        "intro-mobile": "url('../images/bg-intro-mobile.svg')",
+        "intro-desktop": "url('../images/bg-intro-desktop.svg')",
       },
       screens: {
         md: "600px",
