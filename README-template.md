@@ -1,6 +1,6 @@
 # Frontend Mentor - Easybank landing page solution
 
-This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/avatarfreak/frontend-easybank](https://github.com/avatarfreak/easybank)
-- Live Site URL: [https://avatarfreak.github.io/frontend-easybank/](https://avatarfreak.github.io/easybank)
+- Solution URL: [https://github.com/avatarfreak/frontend-easybank](https://github.com/avatarfreak/fronend-easybank)
+- Live Site URL: [https://avatarfreak.github.io/frontend-easybank/](https://avatarfreak.github.io/frontend-easybank)
 
 ## My process
 
@@ -46,4 +46,3 @@ Users should be able to:
 
 - Website - [pigoat](https://www.pigoat.com)
 - Frontend Mentor - [@avatarfreak](https://www.frontendmentor.io/profile/avatarfreak)
-
