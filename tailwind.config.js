@@ -50,6 +50,11 @@ module.exports = {
         "menu-close": "url('./images/icon-close.svg')",
         "intro-mobile": "url('./images/bg-intro-mobile.svg')",
         "intro-desktop": "url('./images/bg-intro-desktop.svg')",
+        mockup: "url('./images/image-mockups.png')",
+      },
+      screens: {
+        md: "600px",
+        lg: "850px",
       },
     },
   },
