@@ -116,4 +116,10 @@ body {
   .secondary-menu-underline {
     @apply hover:text-pri-110;
   }
+  .menu {
+    @apply bg-menu-open;
+  }
+  .menu.active {
+    @apply bg-menu-close;
+  }
 }
