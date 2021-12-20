@@ -43,11 +43,17 @@
   --l-200: 1.3;
   --l-300: 1.5;
 }
+@media (min-width: 37rem) {
+  :root {
+    --fs-200: 32px;
+    --fs-500: 32px;
+  }
+}
 
-@media (min-width: 45rem) {
+@media (min-width: 53rem) {
   :root {
     --fs-100: 16px;
-    --fs-200: 56px;
+    --fs-200: 40px;
     --fs-300: 18px;
     --fs-400: 14px;
     --fs-500: 40px;
@@ -76,10 +82,38 @@
     --l-300: 1.5;
   }
 }
+
+@media (min-width: 100rem) {
+  :root {
+    --fs-100: 18px;
+    --fs-200: 60px;
+    --fs-300: 20px;
+    --fs-400: 16px;
+    --fs-500: 56px;
+    --fs-600: 20px;
+    --fs-700: 32px;
+    --fs-800: 20px;
+    --fs-900: 56px;
+    --fs-50: 14px;
+    --fs-60: 14px;
+    --fs-70: 14px;
+    --fs-80: 18px;
+  }
+}
 body {
-  display: grid;
-  grid-template-row: min-content 1fr;
   min-height: 100vh;
   font-size: 1.125rem;
   width: 100%;
+}
+.top_left {
+  background-position-y: -8rem;
+}
+
+@layer components {
+  .pri-menu-underline {
+    @apply relative after:absolute after:-bottom-7 after:left-0 after:w-full after:h-1 after:bg-gradient-to-r after:from-pri-110 after:to-pri-120 after:opacity-0 after:transition-opacity after:duration-700 hover:after:opacity-100;
+  }
+  .secondary-menu-underline {
+    @apply hover:text-pri-110;
+  }
 }
